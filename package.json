@@ -1,0 +1,10 @@
+{
+  "name": "kindhealth-ai-marketing-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "flat-build": "mkdir -p dist/client/src dist/client/vendor dist/client/public && cp index.html dist/client/index.html && cp app.jsx dist/client/src/app.jsx && cp styles.css dist/client/src/styles.css && cp governance-os-hero.png dist/client/public/governance-os-hero.png && cp babel.min.js lucide.min.js react-dom.production.min.js react.production.min.js tailwindcss-cdn.js dist/client/vendor"
+  }
+}
