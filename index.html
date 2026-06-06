@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KindHealth AI | Employer Health Plan Governance</title>
+    <meta
+      name="description"
+      content="KindHealth AI helps employers understand health plan spend, identify savings opportunities, evaluate vendors, and document governance decisions."
+    />
+    <script src="./vendor/tailwindcss-cdn.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: "#0E1226",
+              ink: "#2A2E45",
+              muted: "#5F6378",
+              line: "#E6E2DA",
+              surface: "#FAF7F2",
+              paper: "#F3EFE8",
+              pink: "#E81F76",
+              cyan: "#3DD9C9",
+            },
+            boxShadow: {
+              soft: "0 18px 60px rgba(14, 18, 38, 0.10)",
+              line: "0 1px 0 rgba(14, 18, 38, 0.08)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body class="bg-white text-navy antialiased">
+    <div id="root"></div>
+    <script src="./vendor/react.production.min.js"></script>
+    <script src="./vendor/react-dom.production.min.js"></script>
+    <script src="./vendor/lucide.min.js"></script>
+    <script src="./vendor/babel.min.js"></script>
+    <script type="text/babel" data-presets="react" src="./src/app.jsx"></script>
+  </body>
+</html>
